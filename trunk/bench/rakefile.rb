@@ -1,3 +1,3 @@
-task :default do
+task :bench do
   ruby 'bench.rb'
 end

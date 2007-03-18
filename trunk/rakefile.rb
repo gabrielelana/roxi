@@ -1,9 +1,10 @@
 require 'rake/contrib/rakefile'
 require 'rake/testtask'
 
-xpath = Rake::RakeFile.new('ext/roxi/xpath')
-xparser = Rake::RakeFile.new('ext/roxi/xdom/xparser');
-bench = Rake::RakeFile.new('bench')
+root = File.dirname(__FILE__)
+xpath = Rake::RakeFile.new("#{root}/ext/roxi/xpath")
+xparser = Rake::RakeFile.new("#{root}/ext/roxi/xdom/xparser");
+bench = Rake::RakeFile.new("#{root}/bench")
 
 desc 'build all extensions'
 task :build do
@@ -25,7 +26,7 @@ task :uc => :use_case
 
 desc 'exec benchmarks'
 task :bench do
-  bench.exec
+  bench.exec :bench
 end
 
 Rake::TestTask.new(:test_case) do | task |
