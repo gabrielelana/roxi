@@ -1,0 +1,8 @@
+<ROOT> = working copy directory
+
+configuration:
+- add <ROOT>/lib to RUBYLIB environment variable
+- add <ROOT>/ext to RUBYLIB environment variable
+- require gcc compiler toolchain
+- require bison 2.2
+- require flex 2.5.*
