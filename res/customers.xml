@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customers>
+	<customer>
+		<custno>9000</custno>
+		<name>
+			<firstname>Joe</firstname>
+			<lastname>Anderson</lastname>
+		</name>
+		<email>joe@nowhere.com</email>
+		<phone>1-888-555-1234</phone>
+	</customer>
+	<customer>
+		<custno>1001</custno>
+		<name>
+			<firstname>Andy</firstname>
+			<lastname>Shaperd</lastname>
+		</name>
+		<email>andy@playallday.com</email>
+	</customer>
+	<customer>
+		<custno>1003</custno>
+		<name>
+			<firstname>Amanda</firstname>
+			<lastname>Johnson</lastname>
+		</name>
+		<email>amanda@areyousure.com</email>
+	</customer>
+	<customer>
+		<custno>2005</custno>
+		<name>
+			<firstname>Bill</firstname>
+			<lastname>Murphy</lastname>
+		</name>
+		<email>bill@xmlforme.com</email>
+	</customer>
+</customers>
